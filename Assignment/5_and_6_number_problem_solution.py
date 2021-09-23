@@ -11,3 +11,13 @@ for i in list_num:
     else:
         print('Oh no this is gatter then 150')
         break
+
+
+'''
+Problem 6
+Reverse the following list using for loop
+'''
+for i in reversed(list_num):
+    print(i)
+
+
