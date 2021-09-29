@@ -10,3 +10,5 @@ if (product > 1000):
     print('Sum of those integer = ', num_1+num_2)
 else:
     print('Their product is = ', product)
+
+# Start Assignment 1
