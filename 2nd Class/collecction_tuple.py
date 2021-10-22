@@ -10,3 +10,4 @@ for i in tuple_val:
 
 print(tuple_val.index(20))
 print(tuple_val.count(30))
+

@@ -24,7 +24,7 @@ student = {
         'Name': 'Md. Shohug',
         'Dept': 'CSE'
     },
-    '12': {
+    '14': {
         'Name': 'Hasnur',
         'Dept': 'BBA'
     }
@@ -35,7 +35,7 @@ student_info = student.get(input())
 if student_info == None:
     print('No data')
 else:
-    print(student_info['Name: '], student_info['dept'])
+    print(student_info['Name'], student_info['Dept'])
 
 # Printing Key and value
 print(set_2.keys())
