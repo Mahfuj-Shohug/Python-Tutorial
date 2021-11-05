@@ -16,6 +16,7 @@ class Student:
     # Class must need a construtor 
     def __init__(self):
         pass
+
     #function
     def getName(self):
         return self.name
@@ -26,6 +27,7 @@ class Student:
     def universityName(self):
         #local Variable 
         varsityName = 'DIU'
+         
 
     
 
