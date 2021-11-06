@@ -14,8 +14,9 @@ class Student:
 
     # Constructor 
     # Class must need a construtor 
-    def __init__(self):
-        pass
+    def __init__(self, name, dept):
+        self.name = name
+        self.dept = dept
 
     #function
     def getName(self):
@@ -27,7 +28,14 @@ class Student:
     def universityName(self):
         #local Variable 
         varsityName = 'DIU'
-         
+    
+#creat an object 
+# object name -> object function
+
+student = Student('Mahfuj', 'SWE')
+print(student.name)
+print(student.dept)
+
 
     
 
