@@ -12,13 +12,13 @@ class Student:
     name = ''
     dept = ''
 
-    # Constructor 
+    # Constructor -> global Variable intiatization 
     # Class must need a construtor 
     def __init__(self, name, dept):
         self.name = name
         self.dept = dept
 
-    #function
+    #function 
     def getName(self):
         return self.name
 
@@ -28,14 +28,20 @@ class Student:
     def universityName(self):
         #local Variable 
         varsityName = 'DIU'
+        print(varsityName)
     
 #creat an object 
 # object name -> object function
 
 student = Student('Mahfuj', 'SWE')
-print(student.name)
-print(student.dept)
+print(student.name, student.dept)
 
+student2 = Student('Faruk', 'BBA')
+print(student2.name, student2.dept)
+
+student.universityName()
+
+ 
 
     
 
