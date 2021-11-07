@@ -20,7 +20,7 @@ class StudentImpl(Student):
         self.dept = dept
 
 #student implementation  class object
-student = StudentImpl('Mahfuj', 'SWE')
-print(student.name, student.dept)
-print(student.getName())
-print(student.getDept())
+# student = StudentImpl('Mahfuj', 'SWE')
+# print(student.name, student.dept)
+# print(student.getName())
+# print(student.getDept())
